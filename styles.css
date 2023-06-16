@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+    height: 4vh;
+    width: 100%;
+    background-color: rgb(5, 5, 5);
+}
+header {
+    display: flex;
+}
+.one{
+    color: red;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 25px;
+    height: 50pxpx;
+}
+.two{
+    color: red;
+    margin-top: 5px;
+    margin-left: 4px;
+    width: 25px;
+    height: 20px;
+}
+h4{ 
+    color: white;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+.twit{
+    color: aliceblue;
+    margin-left: 950px;
+    margin-right: 50px;
+    margin-top: 3px;
+    height:10px;
+}
+.fb{
+    color: aliceblue;
+    margin-right: 50px;
+    margin-top:3px;
+    height: 10px;
+}
+.insta{
+    color: aliceblue;
+    margin-right: 50px;
+    margin-top:3px;
+    height: 100px;
+}
+.lin{
+    color: aliceblue;
+    margin-right: 50px;
+    margin-top:3px;
+    height:12px;
+}
+.navcontainer{
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    background-color: grey;
+    margin:0px 0px;
+}
+.logo{
+    position: absolute;
+    display:flex;
+    height: 100%;
+    width: 5%;
+    margin: 19px 45px;
+}
+.navlinks{
+    position: absolute;
+    list-style-type: none;
+    display:flex;
+    height: 40px ;
+    width:50% ;
+    background-color:grey;
+    align-items: center;
+    justify-content: space-around;
+    margin: 13px 750px;
+}
+.navlinks li{
+    color: white;
+}
+.dropdown{
+    color: white;
+    margin-left: 60px;
+   position: absolute;
+}
+ 
+.navcontainer .navlinks li:hover{
+    background:red;
+    padding: 10px 13px;
+}
